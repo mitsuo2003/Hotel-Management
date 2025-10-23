@@ -6,6 +6,40 @@ A full RESTful API for hotel administration created with Node.js, Express, and M
 
 # BASE URL
 https://hotel-management-1-2exf.onrender.com
+
+## Post for rooms
+{
+  "number": 101,
+  "type": "Single",
+  "price": 1200,
+  "status": "Available"
+}
+# Put: occupied
+
+## Post for guests
+
+{
+  "name": "Maria Santos",
+  "email": "maria.santos@example.com",
+  "phone": "09123456789",
+  "address": "Sorsogon City"
+}
+
+# Put: Kevin 
+
+## Post for bookings
+{
+  "room": "6718f5a0f93c3c2a9b12d890",
+  "guest": "6718f6b9f93c3c2a9b12da34",
+  "checkInDate": "2025-11-01",
+  "checkOutDate": "2025-11-05",
+  "totalPrice": 6000,
+  "status": "Pending"
+}
+
+#Put: confirmed
+
+
 <hr>
 
 <h2>Features</h2>
